@@ -1,0 +1,7 @@
+Pattern - Sliding window pattern 
+
+
+Question 1 - LC : 643. Maximum Average Subarray I
+Hint: iterate through array sliding window, at each pt find max and at end return max. 
+
+
