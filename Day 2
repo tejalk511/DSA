@@ -5,3 +5,15 @@ Question 1 - LC : 643. Maximum Average Subarray I
 Hint: iterate through array sliding window, at each pt find max and at end return max. 
 
 
+Question 2 - LC : 76. Minimum Window Substring (Very Interesting)
+https://leetcode.com/problems/minimum-window-substring/description/
+Hint: 
+- left and right ptr for sliding window 
+- maintain two hash tables (1: for target string count, 2: current window count-to check how many element from target string are present)
+- right ptr increment --> and update the hash tables
+- if count of both hash tables match 
+  --> check window size and update min window everytime 
+  --> increment left pointer & update hash tables
+- complexity = O(n^2)
+
+
