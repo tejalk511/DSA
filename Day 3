@@ -1,0 +1,16 @@
+Pattern 3 - Two Pointer approach 
+
+Question - 11. Container with most water
+https://leetcode.com/problems/container-with-most-water/description/
+hint :
+- If you simulate the problem, it will be O(n^2) which is not efficient.
+- Try to use two-pointers. Set one pointer to the left and one to the right of the array. Always move the pointer that points to the lower line.
+- How can you calculate the amount of water at each step?
+
+Question - 3 Sum 
+https://leetcode.com/problems/3sum/description/
+hint - from n^3 make it n^2 
+- left pt , right pt
+- find 3rd number using x + y + z = 0 eq
+- if 3rd number in array/hash table --> add to result 
+- Maintain hash table smartly -- donot consider duplicates
