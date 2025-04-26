@@ -1,0 +1,16 @@
+Pattern 5- 
+
+Question: Reverse LL in place without using extra space
+https://leetcode.com/problems/reverse-linked-list/description/
+Hint:
+- need to have 2 pts- prev, curr, next
+- Catch - After while loop you need to reverse last time for the last element or intialize for loop in such way. 
+
+
+Queston: Reverse LL II - Reverse only some part of LL
+https://leetcode.com/problems/reverse-linked-list-ii
+Hint:
+- keep a dummy node, for left = 1position, 
+- reverse logic would be same as above
+- At end only fix for head and tail of reversed LL
+
