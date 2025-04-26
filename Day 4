@@ -1,0 +1,32 @@
+Pattern 4 - Fast and Slow pointers
+
+Question1 - Detect Cycle in Linked list 
+https://leetcode.com/problems/linked-list-cycle/description/
+Hint:
+- fast ptr = 2 steps 
+- slow ptr = 1 step 
+- if slow == fast : true else false
+
+Question2 - Next Happy Number 
+https://www.geeksforgeeks.org/problems/next-happy-number4538/1
+Hint - 
+- keep loop from N --> N+1 (i) 
+- for every num(i) check if it's happy or not (isHappy()) -> yes then return the number
+- Note1: Be careful for single number -> N=3, next happy = 7: 49->97->130->10->1 {It's not just about double digit numbers}
+- Note2: For Unhappy numbers, maintain a set --> to keep track of visited numbers, --> in order to avoid infinite loop
+
+Question3 - Find duplicates - without using any extra space. 
+https://leetcode.com/problems/find-the-duplicate-number/description/
+Hint - Fast and slow pointer 
+- Same as Quest 1 : Hidden concept to understand 
+n =     1 3 4 2 2
+index = 0 1 2 3 4
+Linked list rep of indexes:
+[0] -> [3] -> [2] -> [4]
+               | <----|
+
+ 
+
+
+
+
