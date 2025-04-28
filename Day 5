@@ -14,3 +14,12 @@ Hint:
 - reverse logic would be same as above
 - At end only fix for head and tail of reversed LL
 
+
+Question: Find duplicate number
+https://leetcode.com/problems/find-the-duplicate-number/
+index  = [ 0 1 2 3 4 ]
+array =  [ 1 3 4 2 2 ]
+
+Using indexes if you create linked list like structure --> it will have loop
+- Just identify where the loop is using fast and slow pointer approach. 
+
