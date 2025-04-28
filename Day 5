@@ -17,5 +17,9 @@ Hint:
 
 Question: 24. Swap Nodes in Pairs
 https://leetcode.com/problems/swap-nodes-in-pairs/description/
+Hint : 
+- Think of swapping node
+- Always use a dummy node and attach head to it
+- at a time swap/reverse for both curr and curr.next
 
 
