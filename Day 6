@@ -1,0 +1,13 @@
+Pattern - Monotonic Stack 
+
+Question - Next Greater Element 1
+- 2 arr given : Find next greater of arr1 element by refering arr2
+https://leetcode.com/problems/next-greater-element-i/
+Hint:
+- brute force = n^2
+- Reduce to TC = O(n)
+- Use index/dic to map to arr1
+- Use stack to find next greater element in arr2 and map back using index/dic
+
+
+
