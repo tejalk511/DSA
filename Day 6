@@ -9,5 +9,12 @@ Hint:
 - Use index/dic to map to arr1
 - Use stack to find next greater element in arr2 and map back using index/dic
 
+Question 2 - Daily Temperature : Find after how many number of days will the temperature be greater than current day's temperature
+https://leetcode.com/problems/daily-temperatures/submissions/1621893375/
+Hint -
+- Use stack 
+- No need dict to maintain indexes -- it would lead to error is duplicate temperatures are present
+- in stack store [value, index/day] for each temperature
+
 
 
