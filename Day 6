@@ -16,5 +16,12 @@ Hint -
 - No need dict to maintain indexes -- it would lead to error is duplicate temperatures are present
 - in stack store [value, index/day] for each temperature
 
+Question 3 - Largest rectange in histogram 
+https://www.naukri.com/code360/problems/largest-rectangle-in-a-histogram_1058184?leftPanelTabValue=SUBMISSION
+Hint -
+- Find next smaller element arr for given arr
+- Find prev smaller element arr for given arr
+- Rect = (nxt smaller - prev smaller -1 ) * (arr[i]) --> find max amongst all values of array 
+
 
 
