@@ -20,3 +20,13 @@ Question 1 - Merge Intervals
 https://leetcode.com/problems/merge-intervals/
 Hint:
 Similar to above example
+
+
+Question 2 - Insert new interval + merge overlapping intervals
+https://leetcode.com/problems/insert-interval/
+Hint:
+Complexity = O(n)
+- Single for loop and it should handle for 3 cases - 
+- case 1 - new interval(end time ) < intervals(start time) --> append at start
+- case 2 - new interval (start time) > intervals(end time) --> append at end of interval
+- case 3- else overlapping case 
