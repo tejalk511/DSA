@@ -17,3 +17,14 @@ Hint:
 - Store only k elements in heap
 - at end return those k elements by transfering to result/new array
 
+
+Question : *** Little tricky and interesting *** - Find K pairs with Smallest Subsums
+https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/
+Hint:
+- DS used - min heap
+- 1st loop - Insert element in min heap - min(k,len(arr1)) keep arr2[0] element everytime
+- 2nd loop - Pop element from min heap - add to result arr --> arr ith element with (j+1)th element in min heap
+-- So everytime while poping you would pop min element and everytime while pushing you would push at i which was small along with j+1th index 
+-- since array is sorted so will give each smaller element a chance
+- return result
+
