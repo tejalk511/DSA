@@ -1,0 +1,19 @@
+Pattern 7  - Top K elements 
+
+Data struct : Heap
+
+Question - Find kth largest element in arr
+https://leetcode.com/problems/kth-largest-element-in-an-array/description/
+Hint :
+- Use min heap: maintain heap of k elements
+- Keep on adding elements of arr in heap if size of heap exceed 'k' then pop from heap
+- return root of heap it would be kth largest element
+
+Question - Find top k frequent elements in arr
+https://leetcode.com/problems/top-k-frequent-elements/description/
+Hint:
+- dict - storing freq of elements
+- heap- (value, key) : order is impt
+- Store only k elements in heap
+- at end return those k elements by transfering to result/new array
+
