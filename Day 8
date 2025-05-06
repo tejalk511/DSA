@@ -30,3 +30,9 @@ Complexity = O(n)
 - case 1 - new interval(end time ) < intervals(start time) --> append at start
 - case 2 - new interval (start time) > intervals(end time) --> append at end of interval
 - case 3- else overlapping case 
+
+
+Question 3 - Count #intervals to remove to get arr of Non overlapping intervals
+https://leetcode.com/problems/non-overlapping-intervals/description/
+Hint:
+
