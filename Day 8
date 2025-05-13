@@ -35,4 +35,8 @@ Complexity = O(n)
 Question 3 - Count #intervals to remove to get arr of Non overlapping intervals
 https://leetcode.com/problems/non-overlapping-intervals/description/
 Hint:
+- similar to question 1
+- kept count of overlapping intervals
+- in new interval array --> store end number as min(arr[1], dummy[1]) instead of storing the max as we do usually. 
+
 
