@@ -8,3 +8,11 @@ hint:
 - 2) Compare if target lies in 1st half or 2nd half of the rotated sorted array
 - 3) Using normal binary search final the index of target element exist or not. 
 
+
+Question2 - Find smallest element in rotated sorted arr
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/1633854998/
+Hint:
+- Same as step:1) from question 1 .
+- *****Catch**** : Check if arr[start] < arr[end] --> then return arr[end] --> check this always before setting the mid 
+
+
