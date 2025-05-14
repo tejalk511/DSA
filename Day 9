@@ -1,0 +1,10 @@
+Day 9 - Modified Binary search
+Using binary search 
+ 
+Question 1 - Find target element in rotated sorted arr
+https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+hint:
+- 1) using start and end points find pivot: from where the array is rotated: we will get this at "start"
+- 2) Compare if target lies in 1st half or 2nd half of the rotated sorted array
+- 3) Using normal binary search final the index of target element exist or not. 
+
