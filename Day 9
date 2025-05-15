@@ -16,3 +16,9 @@ Hint:
 - *****Catch**** : Check if arr[start] < arr[end] --> then return arr[end] --> check this always before setting the mid 
 
 
+Question3 - Find element in 2D sorted matrix
+https://leetcode.com/problems/search-a-2d-matrix-ii/description/
+Hint:
+- Since row are sorted --> first find row where the element is present --> using binary search --> log(row)
+- If row found, then search in row(col wise) if element is present or not --> using binary search --> log(col) 
+- Total TC = log(row) + log(col)
