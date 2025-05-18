@@ -1,0 +1,9 @@
+Pattern 10 -
+Tree traversal for tree
+
+Question 1 - Binary tree traversal : records all paths till leaf nodes
+https://leetcode.com/problems/binary-tree-paths/description/
+Hint :
+- pre order
+- backtracking at the end 
+- If you get leaf node then save it 
