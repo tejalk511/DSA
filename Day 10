@@ -7,3 +7,13 @@ Hint :
 - pre order
 - backtracking at the end 
 - If you get leaf node then save it 
+
+Question2 - Kth smallest element in tree
+https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+Hint:
+- use stack
+- Keep repeating till end of stack or full of binary tree
+- goto extreme left and add elements in stack
+- If left not exist, add root.val in the stack 
+- then pop element from stack --> after poping decrement k 
+- check k === 0: then return top of stack else goto root.right
