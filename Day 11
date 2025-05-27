@@ -2,6 +2,11 @@ Pattern - Graphs - DFS
 
 
 Problem 1- Clone Graph 
+To Make a deep copy of the graph 
+Hint:
+--> use hashmap to keep track of old nodes to new nodes marking
+--> make deep copy of nodes
+--> apply dfs and make deep copy of its neighbours too
 
 Problem 2 - Path Sum II
 Find target sum in the tree --> go from root to leaf 
