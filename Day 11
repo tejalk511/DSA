@@ -1,0 +1,17 @@
+Pattern - Graphs - DFS
+
+
+Problem 1- Clone Graph 
+
+Problem 2 - Path Sum II
+Find target sum in the tree --> go from root to leaf 
+--> Do dfs traversal from root to leaf
+--> backtracking 
+--> Store a) Sum + b) Path --> so to compare at leave node. 
+
+Problem 3 - Course Schedule II
+Find schedule of course
+Hint - 
+--> Kahn's algo
+--> topological sort -> for directed graphs using dfs
+--> graph problem 
