@@ -21,3 +21,16 @@ Hint -
 - use queue --> push root element in queue
 - while queue is empty - pop element from front of queue and add it's left and right child into the tree
 - TRICK: To remove elements at same level, at a time - use for loop inside the while loop of q
+
+
+Question 3- Word Ladder***********
+https://leetcode.com/problems/word-ladder/submissions/1647115727/
+- Very interesting and needs to be reviwed
+Hint -
+- Consider map 
+- map will have adj matrix
+- adj matrix would be pattern to each word
+- pattern --> keep each letter or word '*' once
+- Push word into queue, map it with the pattern in adj list and then push next word
+- keep track of length --> once we get front of queue as lastword that means we got path --> return length else return 0
+
