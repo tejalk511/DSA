@@ -1,0 +1,23 @@
+PAttern - BFS
+
+Question 1 - Rotten oranges 
+Calc in how much time because of one rotten orange, others will also get rotten .
+Given - 2D matrix
+https://leetcode.com/problems/rotting-oranges/description/
+Hint:
+- Perform BFS
+- Use queue
+- Keep track of fresh oranges and time --> fresh oranges == 0 at end then return time else -1
+- pop on at a time from queue and ppush the next rotten orange
+- check in 4 directions for next rotten orange
+- TRICK: while poping from queue, inside while --> use for loop --> so that 2 rotten oranges can continuously perform bfs. 
+
+
+
+Question 2 - BFS
+Find BFS traversal of the given tree
+https://leetcode.com/problems/binary-tree-level-order-traversal/description/
+Hint - 
+- use queue --> push root element in queue
+- while queue is empty - pop element from front of queue and add it's left and right child into the tree
+- TRICK: To remove elements at same level, at a time - use for loop inside the while loop of q
