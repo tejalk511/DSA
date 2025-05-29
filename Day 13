@@ -25,3 +25,12 @@ hint:
 - Do dfs only for those nodes which are not visited
 - After each iteration increment the number of islands
 
+
+Question 3 - Surrounded Regions 
+Trick Question -- But very interesting -- do try 
+https://leetcode.com/problems/surrounded-regions/description/
+Hint -
+- Instead of finding surrounded regions --> find regions which need not be surrounded 
+- Traverse all edge cells of matrix- If any cell = O then do dfs and mark it as 'T'
+- Revert all other 'O' to 'X' inside boundary
+- Now revert all convert 'T' back to 'O' to show that they are boundry cells and couldnt be covered.
