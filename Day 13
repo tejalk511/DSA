@@ -1,0 +1,16 @@
+Pattern - Matrix Traversal 
+--> Using DFS or BFS
+--> Logic 
+- take node, and traverse
+- for going to neighbour nodes -->. 4 nodes [up, down, left, right]
+- Add neigh in queue(bfs) or traverse them(dfs) --> depending on requirement
+- Note here diagonal elements are not traversed
+
+Question 1- Flood Fill
+Fill color in matrix from start pt (start_r,start_c) and all it's adj neighbours 
+https://leetcode.com/problems/flood-fill/description/
+Hint -
+- Note : you didnot understand question - flood fill is only for (i,j) if it's value is equal to value given at start (start_r,start_c) ie mat[i,j] = (initialy color of )mat[start_r,start_col]
+- Rest logic is same as above 
+- Just mainly check the constraints
+- DFS is used: Recursive solution - for each neighbour(keep neigh in for loop)
