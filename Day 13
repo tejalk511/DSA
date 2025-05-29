@@ -14,3 +14,14 @@ Hint -
 - Rest logic is same as above 
 - Just mainly check the constraints
 - DFS is used: Recursive solution - for each neighbour(keep neigh in for loop)
+
+
+Question 2 - Find Number of Islands
+Given matrix : find number of components of graph
+https://leetcode.com/problems/number-of-islands/description/
+hint:
+- Goto each node of matrix - run dfs/bfs on it and mark visited in separate matrix
+- Repeat the same for every node
+- Do dfs only for those nodes which are not visited
+- After each iteration increment the number of islands
+
