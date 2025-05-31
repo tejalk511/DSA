@@ -1,0 +1,33 @@
+Pattern 14 - Backtracking
+
+Question 1- Permutations 
+https://leetcode.com/problems/permutations/
+Hint - 
+- Run for loop for each element then 
+    - Swap elements, wrt index
+    - function call
+    - swap back again
+
+Question 2 - Subsets 
+https://leetcode.com/problems/subsets/description/
+Hint -
+- Recursive sol
+- Include element in ans arr and do recursive call
+- Pop element from rec : arr - Backtracking
+- Do a recursive call --> Exclude element
+
+
+Question 3 - NQueen problem *******
+https://leetcode.com/problems/n-queens/description/
+--> IMPT and very interesting 
+--> result.append([element for sublist in board for element in sublist])
+Hint -
+- Brute force : gotoo each cell and check if it's possible ornot
+method 2- 
+- Keep track of - col, negative diag and pos diag and iterate through each row
+- pos diag = R+C
+- neg diag = r-c
+- inside recursion : for loop for columns --> in this way you have control over row and col
+- check if col, negdiag and posdiag are not present for r,c --> if yes continue 
+- if no then add queen, add col, negdiag and posdiag and --> make recursive function call
+- Backtrack(after function call for new iteration) and --> make queen = 0, remove, col, negdiag, posdiag (in the forloop itself)
