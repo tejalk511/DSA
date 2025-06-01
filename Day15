@@ -1,0 +1,16 @@
+Pattern 15.1 - DP 
+
+P1 - Fibonnacci Series
+
+Question 1  - Count ways to Climb stairs 
+https://leetcode.com/problems/climbing-stairs/description/
+Hint - 
+- Similar to fibonacci series --> 
+- each stair would have 2 ways -> 1 step or 2 step : need to add them 
+
+Question 2- Fibonacci series
+https://www.naukri.com/code360/problems/print-fibonacci-series_7421617?leftPanelTabValue=SUBMISSION
+Hint - 
+- Do it using recursion and dp array 
+
+
