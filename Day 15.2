@@ -13,3 +13,11 @@ Hint - Modified Kadane's algo
 - Additional find -> curr_min and global_min
 - Find total
 - If global_max < 0: return global_max --> else max(global_max, total - global_min) : For circular array
+
+Question 3 -- Maximum Product Subarray - 
+https://leetcode.com/problems/maximum-product-subarray/description/
+https://www.naukri.com/code360/problems/subarray-with-maximum-product_6890008
+Hint  
+- Main a current min and current max for each element - 
+- store max of both those amongst each pt --> O(n) time complexity
+- If element = 0, then keep curr_max = 1 and curr_min = 1 (Since we are finding maximum product)
