@@ -6,6 +6,10 @@ Hint -
 - For loop for all elements
 - ** Handling negative cases --> Keep 2 curr_sum and curr ==> make curr_sum = 0 if it become < 0. and keep iterating curr as it is. 
 
-Question 2 -  Maximum Sum Circular Subarray
+Question 2 -  Maximum Sum Circular Subarray(***Tricky Try dry run and again)
 https://leetcode.com/problems/maximum-sum-circular-subarray/description/
-Hint - 
+Hint - Modified Kadane's algo
+- similr to above -> find curr_max and global_max
+- Additional find -> curr_min and global_min
+- Find total
+- If global_max < 0: return global_max --> else max(global_max, total - global_min) : For circular array
